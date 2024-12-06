@@ -210,7 +210,7 @@ class Bot {
                 `Sent ping - IP: ${proxyIP}, Message: ${JSON.stringify(pingMessage)}`
                     .cyan
             );
-        }, 26000);
+        }, 10000);
     }
 }
 
